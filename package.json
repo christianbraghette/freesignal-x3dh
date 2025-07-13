@@ -1,0 +1,28 @@
+{
+  "name": "@freesignal/x3dh",
+  "version": "0.1.0",
+  "description": "X3DH package for FreeSignal protocol",
+  "homepage": "https://github.com/christianbraghette/freesignal-x3dh#readme",
+  "bugs": {
+    "url": "https://github.com/christianbraghette/freesignal-x3dh/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianbraghette/freesignal-x3dh.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Christian Braghette",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./build/test.js",
+    "build": "tsc && node ./build/build.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "@freesignal/crypto": "^0.2.7",
+    "@freesignal/utils": "^1.0.2"
+  }
+}
